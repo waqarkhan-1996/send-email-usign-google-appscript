@@ -1,0 +1,10 @@
+function sendemail(){
+Mailapp.sendMail({
+to:"test@gmail.com",
+cc:"test@gmail.com",
+subject:"email subject",
+htmlBody:"Email Body Text",
+})
+
+
+}
